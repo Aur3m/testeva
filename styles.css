@@ -48,8 +48,10 @@ img {
 }
 
 p {
+  margin-bottom: 1.5em;
+  text-indent: 1.5em;
   text-align: justify;
-  margin: 20px 0;
+  text-align-last: left; /* ou justify, selon l’effet voulu */
 }
 
 .dialogue {
