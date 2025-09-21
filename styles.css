@@ -1,0 +1,33 @@
+
+:root{
+  --maxw: 820px;
+  --muted: #6b6b6b;
+  --accent: #b86f6f;
+  --bg: #fffaf8;
+}
+*{box-sizing:border-box}
+body{
+  font-family: 'Georgia', 'Times New Roman', serif;
+  background: var(--bg);
+  color:#222;
+  line-height:1.6;
+  padding:32px;
+  display:flex;
+  justify-content:center;
+}
+.site-header{max-width:var(--maxw); text-align:center; margin-bottom:18px}
+.site-header h1{margin:0; font-size:28px}
+.subtitle{color:var(--muted); margin-top:6px}
+
+.content{max-width:var(--maxw); width:100%; background:white; padding:28px; border-radius:12px; box-shadow:0 6px 30px rgba(30,30,30,0.08)}
+.hero{margin:0 0 18px 0; text-align:center}
+.hero img{max-width:100%; height:auto; border-radius:8px; box-shadow:0 8px 20px rgba(0,0,0,0.08)}
+.hero figcaption{font-size:13px; color:var(--muted); margin-top:8px}
+
+.story p{margin:14px 0; font-size:18px}
+.story p:first-child{margin-top:0}
+.story em{font-style:italic}
+
+.cta{border-top:1px dashed #eee; margin-top:24px; padding-top:16px; text-align:center}
+a{color:var(--accent); text-decoration:none}
+a:hover{text-decoration:underline}
