@@ -17,6 +17,22 @@
       flex-direction: column;
       align-items: center;
       padding: 20px;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    /* Fond d’étoiles léger */
+    body::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('https://i.ibb.co/ZYW3VTp/stars.png') repeat;
+      opacity: 0.05; /* légère transparence */
+      z-index: -1;
+      pointer-events: none;
     }
 
     .site-header {
@@ -113,6 +129,12 @@
 
   <main class="content">
     <figure class="hero">
+      <img src="images/samuel.jpg" alt="Image du texte" />
+    </figure>
+  </main>
+</body>
+</html>
+
       <img src="images/samuel.jpg" alt="Image du texte" />
     </figure>
   </main>
